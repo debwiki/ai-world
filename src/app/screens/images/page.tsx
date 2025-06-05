@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from 'react';
 import { Search, Grid, List, Filter, X, ChevronDown, Menu, User, Camera, Heart } from 'lucide-react';
 
@@ -6,7 +8,15 @@ const categories = [
     "Landscapes", "Portraits", "Abstract", "Sci-Fi", "Fantasy",
     "Architecture", "Animals", "Space", "Surreal", "Minimalist"
 ];
-
+const videoUrl=[
+    { id: 1, url: 'https://www.youtube.com/watch?v=U3vONIizYG8' },
+    { id: 2, url: 'https://www.youtube.com/watch?v=UC_Cw9xqIuE' },
+    { id: 3, url: 'https://www.youtube.com/watch?v=zy5pyui0_C0' },
+    { id: 4, url: 'https://www.youtube.com/watch?v=pD4q9zwWvRg' },
+    { id: 5, url: 'https://www.youtube.com/watch?v=c7R94ykz0po' },
+    { id: 6, url: 'https://www.youtube.com/watch?v=RmZFTQ35Mvs' },
+    { id: 7, url: 'https://www.youtube.com/watch?v=eWf-mx0_NKU' }
+  ]
 const subcategories = {
     "Landscapes": ["Mountains", "Beaches", "Forests", "Cities", "Deserts"],
     "Portraits": ["Realistic", "Stylized", "Anime", "Fantasy", "Cyberpunk"],

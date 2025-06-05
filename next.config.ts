@@ -9,6 +9,6 @@
 
 module.exports = {
   images: {
-    domains: ['images.unsplash.com', 'randomuser.me', 'images.pexels.com', 'youtube.com', 'i.pinimg.com', 'via.placeholder.com', 'www.svgrepo.com'],
+    domains: ['images.unsplash.com', 'plus.unsplash.com','picsum.photos','randomuser.me', 'images.pexels.com', 'youtube.com', 'i.pinimg.com', 'via.placeholder.com', 'www.svgrepo.com'],
   },
 };

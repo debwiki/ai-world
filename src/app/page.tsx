@@ -70,7 +70,7 @@ const videos = [
   {
     id: 1,
     title: "Nature Timelapse",
-    url: "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+    url: "https://www.youtube.com/watch?v=U3vONIizYG8",
     thumbnail: PLACEHOLDER,
     author: "Eve",
     views: "12.4K",
@@ -78,7 +78,7 @@ const videos = [
   {
     id: 2,
     title: "City Drone Shot",
-    url: "https://samplelib.com/lib/preview/mp4/sample-10s.mp4",
+    url: "https://www.youtube.com/watch?v=UC_Cw9xqIuE",
     thumbnail: PLACEHOLDER,
     author: "Frank",
     views: "8.7K",
@@ -86,7 +86,7 @@ const videos = [
   {
     id: 3,
     title: "Ocean Waves",
-    url: "https://samplelib.com/lib/preview/mp4/sample-15s.mp4",
+    url: "https://www.youtube.com/watch?v=zy5pyui0_C0",
     thumbnail: PLACEHOLDER,
     author: "Grace",
     views: "10.2K",
@@ -94,7 +94,7 @@ const videos = [
   {
     id: 4,
     title: "Mountain Adventure",
-    url: "https://samplelib.com/lib/preview/mp4/sample-20s.mp4",
+    url: "https://www.youtube.com/watch?v=pD4q9zwWvRg",
     thumbnail: PLACEHOLDER,
     author: "Henry",
     views: "15.9K",
@@ -102,7 +102,7 @@ const videos = [
   {
     id: 5,
     title: "Urban Life",
-    url: "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+    url: "https://www.youtube.com/watch?v=c7R94ykz0po",
     thumbnail: PLACEHOLDER,
     author: "Isabella",
     views: "7.3K",
@@ -110,7 +110,7 @@ const videos = [
   {
     id: 6,
     title: "Digital Art Process",
-    url: "https://samplelib.com/lib/preview/mp4/sample-40s.mp4",
+    url: "https://www.youtube.com/watch?v=RmZFTQ35Mvs",
     thumbnail: PLACEHOLDER,
     author: "Jack",
     views: "9.8K",
@@ -169,7 +169,7 @@ function ProfileMenu() {
         onClick={() => setIsOpen(!isOpen)}
       >
         <Image
-          src="/api/placeholder/150/150"
+          src="https://i.pinimg.com/236x/fa/9b/da/fa9bda7a0a930b894df4b7e84de58783.jpg"
           alt="Profile"
           width={32}
           height={32}
@@ -186,7 +186,7 @@ function ProfileMenu() {
           <div className="p-4 border-b border-gray-100 dark:border-gray-700">
             <div className="flex items-center gap-3">
               <Image
-                src="/api/placeholder/150/150"
+                src="https://i.pinimg.com/236x/fa/9b/da/fa9bda7a0a930b894df4b7e84de58783.jpg"
                 alt="Profile"
                 width={60}
                 height={60}
@@ -421,7 +421,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
           <div className="relative w-10 h-10">
             <Image
-              src="/api/placeholder/48/48"
+              src="https://i.pinimg.com/236x/fa/9b/da/fa9bda7a0a930b894df4b7e84de58783.jpg"
               alt="Site Logo"
               fill
               className="rounded-xl bg-gradient-to-br from-blue-600 to-indigo-700 p-2 shadow-lg border border-blue-400"
@@ -602,36 +602,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Creator */}
-        <section className="mb-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl overflow-hidden shadow-lg">
-          <div className="p-6 sm:p-8 md:flex items-center gap-6">
-            <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-white/30 shadow-xl mb-6 md:mb-0 mx-auto md:mx-0">
-              <Image
-                src="/api/placeholder/150/150"
-                alt="Featured Creator"
-                fill
-                className="rounded-full object-cover"
-              />
-              <div className="absolute -bottom-1 -right-1 bg-blue-500 text-white p-1 rounded-full border-2 border-white">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              </div>
-            </div>
-            <div className="text-center md:text-left">
-              <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Featured Creator: Jessica Wilson</h3>
-              <p className="text-white/80 mb-4 max-w-xl">Digital artist specializing in AI-generated artwork and animations. Join her community of 248k followers for daily inspiration.</p>
-              <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                <button className="px-4 py-2 rounded-lg bg-white text-blue-700 font-medium hover:bg-blue-50 transition shadow-md">
-                  Follow
-                </button>
-                <button className="px-4 py-2 rounded-lg bg-white/20 text-white font-medium hover:bg-white/30 transition">
-                  View Gallery
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Recent Uploads Section */}
         <section className="mb-12">
